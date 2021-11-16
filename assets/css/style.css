@@ -1,8 +1,16 @@
+/*  Esta parte solo está para que sea mas facil ver los bordes */
+/* *{
+    border: red 2px solid;
+} */
+html {
+    scroll-behavior: smooth;
+  }
 *{
     border: 0;
     margin: 0;
     padding: 0;
 }
+
 body{
     background-color: black;
     color: white;
@@ -15,4 +23,7 @@ body{
     width: 100%;
     height: 10vw;
 
+}
+.cont-icon{
+    padding-left: 10rem;
 }
