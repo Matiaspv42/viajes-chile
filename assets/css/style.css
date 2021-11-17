@@ -1,7 +1,7 @@
 /*  Esta parte solo está para que sea mas facil ver los bordes */
-/* *{
-    border: red 2px solid;
-} */
+*{
+    outline: 2px red solid;
+}
 html {
     scroll-behavior: smooth;
   }
@@ -15,15 +15,35 @@ body{
     background-color: black;
     color: white;
 }
+
+svg{
+    height: auto;
+    width: 3.5rem;
+}
+.logo{
+    font-size: 1.15rem;
+}
 .logo-viajes{
     width: 6.5%;
     height: auto;
+    padding: 0 0 ;
 }
 .card-img-top {
     width: 100%;
-    height: 10vw;
+    height: auto;
 
 }
 .cont-icon{
     padding-left: 10rem;
 }
+.bg-black{
+    background-color: black;
+}
+
+/* Esta parte es para que las cards se vean bien en pantallas grandes y la transicion se haga bien a pantallas pequeñas */
+@media only screen and (min-width: 992px)  {
+    .card-img-top {
+        width: 100%;
+        height: 10vw;
+    }
+  }
