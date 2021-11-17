@@ -1,19 +1,16 @@
 /*  Esta parte solo está para que sea mas facil ver los bordes */
-*{
+/* *{
     outline: 2px red solid;
-}
+} */
 html {
     scroll-behavior: smooth;
   }
-*{
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
+
 
 body{
     background-color: black;
     color: white;
+    font-family: 'Montserrat';
 }
 
 svg{
@@ -38,6 +35,10 @@ svg{
 }
 .bg-black{
     background-color: black;
+}
+
+footer p{
+    display: inline-block;
 }
 
 /* Esta parte es para que las cards se vean bien en pantallas grandes y la transicion se haga bien a pantallas pequeñas */
